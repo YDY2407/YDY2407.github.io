@@ -17,18 +17,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>程序员看不懂官方文档怎么办 - Hexo</title>
+  <title>JavaScript(三) - Hexo</title>
 
   
-    <meta name="description" content="——从“困惑”到“精通”的进阶指南在编程的世界里，官方技术文档当然是“权威指南”，也是程序员最可靠的工具之一。然而，许多开发者（尤其是初学者）常常面临这样的困境：  英语文档晦涩难懂，专业术语令人头大； 文档结构复杂， 找不到关键信息； 遇到报错时，文档中的“官方答案”却无法理解……  为什么官方文档如此重要？官方文档是技术的核心说明书，它提供了最准确、最全面的接口定义、使用规范和最佳实践。例如：">
+    <meta name="description" content="JavaScript输出JavaScript没有任何打印或者输出函数。  JavaScript显示数据JavaScript可以通过不同的方式来输出数据：  使用windows.alert()弹出警告框。 使用document.write()方法将内容写到HTML文档中。 使用InnerHTML写入到HTML元素。 使用console.log()写入到浏览器的控制台。   使用window.aler">
 <meta property="og:type" content="article">
-<meta property="og:title" content="程序员看不懂官方文档怎么办">
-<meta property="og:url" content="http://example.com/2025/07/19/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9C%8B%E4%B8%8D%E6%87%82%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E6%80%8E%E4%B9%88%E5%8A%9E/">
+<meta property="og:title" content="JavaScript(三)">
+<meta property="og:url" content="http://example.com/2025/07/22/JavaScript-%E4%B8%89/">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="——从“困惑”到“精通”的进阶指南在编程的世界里，官方技术文档当然是“权威指南”，也是程序员最可靠的工具之一。然而，许多开发者（尤其是初学者）常常面临这样的困境：  英语文档晦涩难懂，专业术语令人头大； 文档结构复杂， 找不到关键信息； 遇到报错时，文档中的“官方答案”却无法理解……  为什么官方文档如此重要？官方文档是技术的核心说明书，它提供了最准确、最全面的接口定义、使用规范和最佳实践。例如：">
+<meta property="og:description" content="JavaScript输出JavaScript没有任何打印或者输出函数。  JavaScript显示数据JavaScript可以通过不同的方式来输出数据：  使用windows.alert()弹出警告框。 使用document.write()方法将内容写到HTML文档中。 使用InnerHTML写入到HTML元素。 使用console.log()写入到浏览器的控制台。   使用window.aler">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-07-19T10:26:12.000Z">
-<meta property="article:modified_time" content="2025-07-19T12:14:37.728Z">
+<meta property="article:published_time" content="2025-07-22T01:26:30.000Z">
+<meta property="article:modified_time" content="2025-07-22T03:00:19.238Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -46,7 +46,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":[]},"dateCreated":"2025-07-19T18:26:12+08:00","dateModified":"2025-07-19T20:14:37+08:00","datePublished":"2025-07-19T18:26:12+08:00","description":"","headline":"程序员看不懂官方文档怎么办","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/07/19/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9C%8B%E4%B8%8D%E6%87%82%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E6%80%8E%E4%B9%88%E5%8A%9E/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":[]},"url":"http://example.com/2025/07/19/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9C%8B%E4%B8%8D%E6%87%82%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E6%80%8E%E4%B9%88%E5%8A%9E/","image":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":[]},"dateCreated":"2025-07-22T09:26:30+08:00","dateModified":"2025-07-22T11:00:19+08:00","datePublished":"2025-07-22T09:26:30+08:00","description":"","headline":"JavaScript(三)","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/07/22/JavaScript-%E4%B8%89/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":[]},"url":"http://example.com/2025/07/22/JavaScript-%E4%B8%89/","image":[]}</script>
   
 </head>
 <body>
@@ -78,187 +78,114 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-07-19T10:26:12.000Z">2025-07-19</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-07-19T12:14:37.728Z">2025-07-19</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-07-22T01:26:30.000Z">2025-07-22</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-07-22T03:00:19.238Z">2025-07-22</time></span></div></div></div>
     
     <div class="bottom only-title">
       
       <div class="text-area">
-        <h1 class="text title"><span>程序员看不懂官方文档怎么办</span></h1>
+        <h1 class="text title"><span>JavaScript(三)</span></h1>
         
       </div>
     </div>
     
   </div>
-  </div><article class="md-text content"><h5 id="——从“困惑”到“精通”的进阶指南"><a href="#——从“困惑”到“精通”的进阶指南" class="headerlink" title="——从“困惑”到“精通”的进阶指南"></a>——从“困惑”到“精通”的进阶指南</h5><p>在编程的世界里，官方技术文档当然是“权威指南”，也是程序员最可靠的工具之一。然而，许多开发者（尤其是初学者）常常面临这样的困境：</p>
-<ul>
-<li>英语文档晦涩难懂，专业术语令人头大；</li>
-<li>文档结构复杂， 找不到关键信息；</li>
-<li>遇到报错时，文档中的“官方答案”却无法理解……</li>
-</ul>
-<h5 id="为什么官方文档如此重要？"><a href="#为什么官方文档如此重要？" class="headerlink" title="为什么官方文档如此重要？"></a>为什么官方文档如此重要？</h5><p>官方文档是技术的核心说明书，它提供了最准确、最全面的接口定义、使用规范和最佳实践。例如：</p>
-<ul>
-<li>Python的PEP8规范是代码风格的“黄金标准”；</li>
-<li>React的官方文档详细解释了组件生命周期和Hook的用法；</li>
-<li>Spring的官方文档是Java开发者的“圣经”。</li>
-</ul>
-<p>但如何才能高效阅读并理解这些文档？以下是针对不同阶段程序员的实用建议。</p>
+  </div><article class="md-text content"><h5 id="JavaScript输出"><a href="#JavaScript输出" class="headerlink" title="JavaScript输出"></a>JavaScript输出</h5><p>JavaScript没有任何打印或者输出函数。</p>
 <hr>
-<h5 id="一、初学者：从“看不懂”到“看得懂”"><a href="#一、初学者：从“看不懂”到“看得懂”" class="headerlink" title="一、初学者：从“看不懂”到“看得懂”"></a>一、初学者：从“看不懂”到“看得懂”</h5><p>1.接受现实：英文是绕不开的门槛</p>
+<h5 id="JavaScript显示数据"><a href="#JavaScript显示数据" class="headerlink" title="JavaScript显示数据"></a>JavaScript显示数据</h5><p>JavaScript可以通过不同的方式来输出数据：</p>
 <ul>
-<li>硬着头皮看：官方文档大多是英文的，初期可能会感到吃力，但坚持阅读后会逐渐适应。</li>
-<li>借助工具：<ul>
-<li>翻译软件：如DeepL、Google翻译，但注意保留技术术语的英文原词（如API、Hook）。</li>
-<li>浏览器插件：如Chrome的“沉浸式翻译”，支持中英对照。</li>
+<li>使用windows.alert()弹出警告框。</li>
+<li>使用document.write()方法将内容写到HTML文档中。</li>
+<li>使用InnerHTML写入到HTML元素。</li>
+<li>使用console.log()写入到浏览器的控制台。</li>
 </ul>
-</li>
-<li>积累专业词汇：<ul>
-<li>使用Anki或Quiziet制作技术词汇卡片，每天记忆10个术语（如Middleware、Singleton、SemVer）。</li>
-</ul>
-</li>
-</ul>
-<p>2.掌握“快速浏览”技巧</p>
-<ul>
-<li><p>目录优先：先看文档的目录，找到你关心的章节（如“Getting Started”或”API Reference”）</p>
-</li>
-<li><p>关键词搜索：</p>
-<ul>
-<li>在文档页面直接按ctrl+f输入关键字（如error handling、state management）。</li>
-<li>例如：在React文档中搜索userEffect，快速定位Hook的用法</li>
-</ul>
-</li>
-<li><p>代码示例为王：</p>
-<ul>
-<li>官方文档中的代码示例通常是最直观的解释。例如：</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Python 官方文档示例：列表推导式</span></span><br><span class="line">squares = [x**<span class="number">2</span> <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>)]</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="使用window-alert"><a href="#使用window-alert" class="headerlink" title="使用window.alert()"></a>使用window.alert()</h5><hr>
+<h5 id="操作HTML元素"><a href="#操作HTML元素" class="headerlink" title="操作HTML元素"></a>操作HTML元素</h5><p>如需从JavaScript访问某个HTML元素，您可以使用document.getElementById(id)方法。</p>
+<p>请使用”id”属性来标识HTML元素，您可以使用document.getElementById(id)方法。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;demo&quot;</span>).<span class="property">innerHTML</span>=<span class="string">&quot;段落已修改。&quot;</span>;</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>通过修改示例代码，观察输出结果，逐步理解其逻辑。</li>
-</ul>
-</li>
-</ul>
-<p>3.实践驱动学习</p>
-<ul>
-<li><p>“三明治”阅读法：</p>
-<ul>
-<li>视频教程（30%）：观看入门视频（如YouTube上的”React教程”），了解核心概念。</li>
-<li>文档关键章节（40%）：在文档中找到对应部分，标准关键参数说明。</li>
-<li>实操验证（30%）：修改示例代码，测试不同参数的效果。</li>
-</ul>
-</li>
-<li><p>案例参考：</p>
-<ul>
-<li>学习Node.js时，先运行官方文档中的“Hello World”示例</li>
-</ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&#x27;http&#x27;</span>)</span><br><span class="line">http.<span class="title function_">createServer</span>(<span class="function">(<span class="params">req,res</span>)=&gt;</span>&#123;</span><br><span class="line">    res.<span class="title function_">writeHead</span>(<span class="number">200</span>,&#123;<span class="string">&#x27;Content-Type&#x27;</span>:<span class="string">&#x27;test/plain&#x27;</span>&#125;);</span><br><span class="line">    res.<span class="title function_">end</span>(<span class="string">&#x27;Hello World\n&#x27;</span>);</span><br><span class="line">&#125;).<span class="title function_">listen</span>(<span class="number">8080</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Server running at http://localhost:8080/&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<p>以上JavaScript语句可以在web浏览器中执行：</p>
+<p>document.getElementById(“demo”)是使用id属性来查找HTML元素的JavaScript代码。</p>
+<p>innerHTML&#x3D;”段落已修改。”是用于修改元素的HTML内容的JavaScript代码。</p>
+<hr>
+<p>在本教程中，我们大多数情况使用上面的方法来输出。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="title class_">Date</span>());</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>逐步添加功能（如路由、中间件），理解文档中提到的API。</li>
-</ul>
-</li>
-</ul>
+<p>使用document.write()可以向文档写入内容。</p>
+<p>如果在文档已完成加载后执行document.write，整个html页面将被覆盖。</p>
 <hr>
-<h5 id="二、中级程序员：从“看得懂”到“用得好”"><a href="#二、中级程序员：从“看得懂”到“用得好”" class="headerlink" title="二、中级程序员：从“看得懂”到“用得好”"></a>二、中级程序员：从“看得懂”到“用得好”</h5><p>1.精确定位需求</p>
-<ul>
-<li>问题驱动检索：<ul>
-<li>当遇到具体错误时，提取关键词（如TypeError:undefined is not a function），在文档中搜索相关解决方案。</li>
-<li>例如：在Python文档中搜索TypeError，找到常见错误的处理方法。</li>
-</ul>
-</li>
-<li>关注“常见问题”章节<ul>
-<li>大多数官方文档都有“FAQ”或“Troubleshooting”部分，直接解决80%的常见问题。</li>
-</ul>
-</li>
-</ul>
-<p>2.理解文档的“隐藏逻辑”</p>
-<ul>
-<li>文档≠教科书：<ul>
-<li>官方文档是“说明书”，而非系统化教学。例如：<ul>
-<li>Spring文档会假设你已经了解Java基础和依赖注入（DI）概念</li>
-<li>React文档默认你熟悉JavaScript和函数式编程。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>补足基础短板：<ul>
-<li>网络基础：HTTP协议、RESTful架构；</li>
-<li>数据格式：JSON&#x2F;YAML&#x2F;XML的差异；</li>
-<li>开发流程：CLI使用、依赖管理（如npm、pip）。</li>
-</ul>
-</li>
-</ul>
-<p>3.工具链辅助</p>
-<ul>
-<li><p>多文档对比工具：</p>
-<ul>
-<li>使用DevDocs.io聚合多个文档（如JavaScript、React、Django），快速切换参考。</li>
-</ul>
-</li>
-<li><p>结构化笔记模板：</p>
-<ul>
-<li>创建文档阅读笔记框架，记录关键点：</li>
-</ul>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 文档名称：React Hooks</span></span><br><span class="line"><span class="section">## 核心概念</span></span><br><span class="line"><span class="bullet">-</span> State Hook: &#x27;useState&#x27;</span><br><span class="line"><span class="bullet">-</span> Effect Hook: &#x27;useEffect&#x27;</span><br><span class="line"><span class="section">## 使用场景</span></span><br><span class="line"><span class="bullet">-</span> &#x27;useState&#x27; 用于管理组件状态;</span><br><span class="line"><span class="bullet">-</span> &#x27;useEffect&#x27; 用于副作用（如数据请求、订阅）。</span><br><span class="line"><span class="section">## 注意事项</span></span><br><span class="line"><span class="bullet">-</span> 避免在Hook中调用条件逻辑（需放在条件外）。</span><br></pre></td></tr></table></figure></li>
-</ul>
+<h5 id="写到控制台"><a href="#写到控制台" class="headerlink" title="写到控制台"></a>写到控制台</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+
 <hr>
-<h5 id="三、高级程序员：从“用得好”到“精通”"><a href="#三、高级程序员：从“用得好”到“精通”" class="headerlink" title="三、高级程序员：从“用得好”到“精通”"></a>三、高级程序员：从“用得好”到“精通”</h5><p>1.深度阅读架构设计</p>
-<ul>
-<li>文档的“隐藏地图”：<ul>
-<li>技术定位（如React用于UI构建）；</li>
-<li>核心抽象（组件&#x2F;状态&#x2F;Props）；</li>
-<li>数据流向（单向数据绑定）；</li>
-<li>生态扩展（React Router&#x2F;Redux）。</li>
-</ul>
-</li>
-<li>案例参考：<ul>
-<li>阅读Kubernetes官方文档时，先理解”Pod”和”Deployment”的关系，再深入API参考。</li>
-</ul>
-</li>
-</ul>
-<p>2.参与开源社区</p>
-<ul>
-<li>阅读源码：<ul>
-<li>如果文档仍无法理解，尝试阅读官方库的源码（如GitHub上的react仓库）。</li>
-</ul>
-</li>
-<li>提问与讨论<ul>
-<li>在Stack Overflow、GitHub Issues或技术论坛（如V2EX）提问，获取社区反馈。</li>
-</ul>
-</li>
-</ul>
-<p>3.成为“文档贡献者”</p>
-<ul>
-<li>参与文档优化：<ul>
-<li>为开源项目提交文档PR（Pull Request），例如修复错误或添加中文注释。</li>
-</ul>
-</li>
-<li>撰写技术博客：<ul>
-<li>将官方文档中的复杂概念转化为通俗易懂的教程（如“用白话解释Redux中间件”）。</li>
-</ul>
-</li>
-</ul>
+<h5 id="JavaScript语法"><a href="#JavaScript语法" class="headerlink" title="JavaScript语法"></a>JavaScript语法</h5><p>JavaScript是一个程序语言。语法规则定义了语言结构。</p>
 <hr>
-<h5 id="四、常见误区与破解"><a href="#四、常见误区与破解" class="headerlink" title="四、常见误区与破解"></a>四、常见误区与破解</h5><p>误区1：认为必须通读整个文档</p>
-<ul>
-<li>破解：聚焦20%的核心内容（如常用API），而非追求“全知”。</li>
-</ul>
-<p>误区2：忽视版本差异</p>
-<ul>
-<li>破解：文档通常标注版本号（如v3.0.0），确保你查阅的版本与项目一致。</li>
-</ul>
-<p>误区3：依赖翻译，忽略英文原意</p>
-<ul>
-<li>破解：技术术语（如callback、closure）需直接理解英文含义。</li>
-</ul>
+<h5 id="JavaScript语法-1"><a href="#JavaScript语法-1" class="headerlink" title="JavaScript语法"></a>JavaScript语法</h5><p>JavaScript是一个脚本语言。</p>
+<p>它是一个轻量级，但功能强大的编程语言。</p>
 <hr>
-<h5 id="五、结语：文档是程序员的”第二语言”"><a href="#五、结语：文档是程序员的”第二语言”" class="headerlink" title="五、结语：文档是程序员的”第二语言”"></a>五、结语：文档是程序员的”第二语言”</h5><p>官方技术文档是程序员的”导航仪”，它不仅能帮你解决问题，更能让你站在巨人的肩膀上理解技术的本质。</p>
-<p>你的成长路径可以是这样的：</p>
-<ul>
-<li>初学者：用翻译工具和代码示例入门；</li>
-<li>中级程序员：掌握问题驱动检索和架构思维；</li>
-<li>高级程序员：深度阅读源码和参与社区。</li>
-</ul>
-<p>记住：文档的阅读能力，是程序员从”写代码”到”掌握技术的关键一步”。</p>
+<h5 id="JavaScript字面量"><a href="#JavaScript字面量" class="headerlink" title="JavaScript字面量"></a>JavaScript字面量</h5><p>在编程语言中，一般固定值称为字面量，如3.14&#x2F;。</p>
+<p>数字字面量可以是整数或者是小数，或者是科学计数</p>
+<p>字符串字面可以使用单引号或双引号</p>
+<p>表达式字面量用于计算</p>
+<p>数组字面量定义一个数组</p>
+<p>对象字面量定义一个对象</p>
+<p>函数字面量定义一个函数</p>
+<hr>
+<h5 id="JavaScript变量"><a href="#JavaScript变量" class="headerlink" title="JavaScript变量"></a>JavaScript变量</h5><p>变量用于存储数据值</p>
+<p>var定义变量，等号赋值</p>
+<p>变量是一个名称，字面量是一个值</p>
+<hr>
+<h5 id="JavaScript操作符"><a href="#JavaScript操作符" class="headerlink" title="JavaScript操作符"></a>JavaScript操作符</h5><p>算术运算符用来计算值</p>
+<p>赋值运算符给变量赋值</p>
+<hr>
+<h5 id="JavaScript语句"><a href="#JavaScript语句" class="headerlink" title="JavaScript语句"></a>JavaScript语句</h5><p>在HTML中，JavaScript语句用于向浏览器发出命令。</p>
+<p>语句用分号分隔</p>
+<hr>
+<h5 id="JavaScript关键字"><a href="#JavaScript关键字" class="headerlink" title="JavaScript关键字"></a>JavaScript关键字</h5><p>JavaScript关键字用于标识要执行的操作</p>
+<p>abstract,else.instanceof,super,boolean,enum,int,switch,break,export,interface,synchronized,byte,extends,let,this,case,false,long,throw,catch,final,native,throws,char,finally,new,transient,class,float,null,true,const,for,package,try,continue,function,private,typeof,debugger,goto,protected,var,default,if,public,return,volatile,do,import,short,while,double,in,static,with</p>
+<hr>
+<h5 id="JavaScript注释"><a href="#JavaScript注释" class="headerlink" title="JavaScript注释"></a>JavaScript注释</h5><p>&#x2F;&#x2F;单行</p>
+<p>&#x2F;*多行</p>
+<hr>
+<h5 id="JavaScript数据类型"><a href="#JavaScript数据类型" class="headerlink" title="JavaScript数据类型"></a>JavaScript数据类型</h5><p>数字、字符串、数组、对象等</p>
+<hr>
+<h5 id="数据类型的概念"><a href="#数据类型的概念" class="headerlink" title="数据类型的概念"></a>数据类型的概念</h5><p>数据类型很重要，要了解数据类型的概念</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">16</span>+<span class="string">&quot;ydy&quot;</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<h5 id="JavaScript函数"><a href="#JavaScript函数" class="headerlink" title="JavaScript函数"></a>JavaScript函数</h5><p>JavaScript语句可以写在函数内，函数可以重复引用：</p>
+<p>引用一个函数&#x3D;调用函数（执行函数内的语句）</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">myFunction</span>(<span class="params">a,b</span>)&#123;</span><br><span class="line">    <span class="keyword">return</span> a+b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h5 id="JavaScript字母大小写"><a href="#JavaScript字母大小写" class="headerlink" title="JavaScript字母大小写"></a>JavaScript字母大小写</h5><p>大小写敏感，要注意</p>
+<hr>
+<h5 id="JavaScript字符集"><a href="#JavaScript字符集" class="headerlink" title="JavaScript字符集"></a>JavaScript字符集</h5><p>使用Unicode字符集。</p>
+<p>Unicode覆盖了所有的字符，包含标点等字符。</p>
+<p>进一步了解请求学习完整的Unicode参考手册。</p>
+<hr>
+<p>JavaScript中常见的是驼峰法的命名规则，如lastName(而不是lastname)。</p>
+<hr>
+<h5 id="JavaScript语句-1"><a href="#JavaScript语句-1" class="headerlink" title="JavaScript语句"></a>JavaScript语句</h5><p>JavaScript语句是发给浏览器的命令。这些命令的作用是告诉浏览器要做的事情。</p>
+<hr>
+<h5 id="分号"><a href="#分号" class="headerlink" title="分号"></a>分号</h5><p>用于分割JavaScript语句；</p>
+<p>可以在一行中编写多条语句。</p>
+<hr>
+<h5 id="JavaScript代码"><a href="#JavaScript代码" class="headerlink" title="JavaScript代码"></a>JavaScript代码</h5><p>代码是语句的序列</p>
+<p>浏览器按照编写顺序依次执行每条语句</p>
+<hr>
+<h5 id="JavaScript代码块"><a href="#JavaScript代码块" class="headerlink" title="JavaScript代码块"></a>JavaScript代码块</h5><p>花括号</p>
+<p>一并执行语句序列</p>
+<hr>
+<h5 id="JavaScript语句标识符"><a href="#JavaScript语句标识符" class="headerlink" title="JavaScript语句标识符"></a>JavaScript语句标识符</h5><p>JavaScript语句通常以一个语句标识符为开始，并执行该语句。</p>
+<p>语句标识符是保留关键字不能作为变量名使用。</p>
+<p>列出：</p>
+<p>break,catch,continue,do…while,for,for…in,function,if…else,return,switch,throw,try,var,while</p>
+<hr>
+<h5 id="对代码行进行拆行"><a href="#对代码行进行拆行" class="headerlink" title="对代码行进行拆行"></a>对代码行进行拆行</h5><p>您可以在文本字符串中使用反斜杠对代码进行换行</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;你好 \</span></span><br><span class="line"><span class="string">世界！&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>知识点：JavaScript是脚本语言，浏览器会在读取代码时，逐行的执行脚本代码。</p>
 </article>
 <div class="article-footer">
     <section id="license">
@@ -270,7 +197,7 @@
 
 </div>
 
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">Newer</div><a href="/2025/07/20/hexo%E7%AE%80%E4%BB%8B/">hexo简介</a></div><div class="item" id="next"><div class="note">Older</div><a href="/2025/07/18/%E5%A6%82%E4%BD%95%E7%8B%AC%E7%AB%8B%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%94%9F%E6%B4%BB/">如何独立一个人生活</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">Older</div><a href="/2025/07/21/JavaScript-%E4%BA%8C/">JavaScript(二)</a></div></section></div>
 
 
 
@@ -284,7 +211,7 @@
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%80%94%E2%80%94%E4%BB%8E%E2%80%9C%E5%9B%B0%E6%83%91%E2%80%9D%E5%88%B0%E2%80%9C%E7%B2%BE%E9%80%9A%E2%80%9D%E7%9A%84%E8%BF%9B%E9%98%B6%E6%8C%87%E5%8D%97"><span class="toc-text">——从“困惑”到“精通”的进阶指南</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81%EF%BC%9F"><span class="toc-text">为什么官方文档如此重要？</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%88%9D%E5%AD%A6%E8%80%85%EF%BC%9A%E4%BB%8E%E2%80%9C%E7%9C%8B%E4%B8%8D%E6%87%82%E2%80%9D%E5%88%B0%E2%80%9C%E7%9C%8B%E5%BE%97%E6%87%82%E2%80%9D"><span class="toc-text">一、初学者：从“看不懂”到“看得懂”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%AD%E7%BA%A7%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%9A%E4%BB%8E%E2%80%9C%E7%9C%8B%E5%BE%97%E6%87%82%E2%80%9D%E5%88%B0%E2%80%9C%E7%94%A8%E5%BE%97%E5%A5%BD%E2%80%9D"><span class="toc-text">二、中级程序员：从“看得懂”到“用得好”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%9A%E4%BB%8E%E2%80%9C%E7%94%A8%E5%BE%97%E5%A5%BD%E2%80%9D%E5%88%B0%E2%80%9C%E7%B2%BE%E9%80%9A%E2%80%9D"><span class="toc-text">三、高级程序员：从“用得好”到“精通”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%B8%B8%E8%A7%81%E8%AF%AF%E5%8C%BA%E4%B8%8E%E7%A0%B4%E8%A7%A3"><span class="toc-text">四、常见误区与破解</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%BB%93%E8%AF%AD%EF%BC%9A%E6%96%87%E6%A1%A3%E6%98%AF%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E2%80%9D%E7%AC%AC%E4%BA%8C%E8%AF%AD%E8%A8%80%E2%80%9D"><span class="toc-text">五、结语：文档是程序员的”第二语言”</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>Scroll to Top</span></a></div></widget>
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%BE%93%E5%87%BA"><span class="toc-text">JavaScript输出</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E6%98%BE%E7%A4%BA%E6%95%B0%E6%8D%AE"><span class="toc-text">JavaScript显示数据</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8window-alert"><span class="toc-text">使用window.alert()</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%93%8D%E4%BD%9CHTML%E5%85%83%E7%B4%A0"><span class="toc-text">操作HTML元素</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%86%99%E5%88%B0%E6%8E%A7%E5%88%B6%E5%8F%B0"><span class="toc-text">写到控制台</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%AF%AD%E6%B3%95"><span class="toc-text">JavaScript语法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%AF%AD%E6%B3%95-1"><span class="toc-text">JavaScript语法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%AD%97%E9%9D%A2%E9%87%8F"><span class="toc-text">JavaScript字面量</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%8F%98%E9%87%8F"><span class="toc-text">JavaScript变量</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="toc-text">JavaScript操作符</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%AF%AD%E5%8F%A5"><span class="toc-text">JavaScript语句</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%85%B3%E9%94%AE%E5%AD%97"><span class="toc-text">JavaScript关键字</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E6%B3%A8%E9%87%8A"><span class="toc-text">JavaScript注释</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">JavaScript数据类型</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">数据类型的概念</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%87%BD%E6%95%B0"><span class="toc-text">JavaScript函数</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%AD%97%E6%AF%8D%E5%A4%A7%E5%B0%8F%E5%86%99"><span class="toc-text">JavaScript字母大小写</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%AD%97%E7%AC%A6%E9%9B%86"><span class="toc-text">JavaScript字符集</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%AF%AD%E5%8F%A5-1"><span class="toc-text">JavaScript语句</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%88%86%E5%8F%B7"><span class="toc-text">分号</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E4%BB%A3%E7%A0%81"><span class="toc-text">JavaScript代码</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-text">JavaScript代码块</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%AF%AD%E5%8F%A5%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="toc-text">JavaScript语句标识符</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E4%BB%A3%E7%A0%81%E8%A1%8C%E8%BF%9B%E8%A1%8C%E6%8B%86%E8%A1%8C"><span class="toc-text">对代码行进行拆行</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>Scroll to Top</span></a></div></widget>
 </div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
