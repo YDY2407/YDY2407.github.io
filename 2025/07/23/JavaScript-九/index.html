@@ -17,18 +17,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>JavaScript(二) - Hexo</title>
+  <title>JavaScript(九) - Hexo</title>
 
   
-    <meta name="description" content="JavaScript用法HTML中的JavaScript脚本代码必须位于与script&gt;标签之间 JavaScript脚本代码可以放置在HTML页面的和部分中  标签如需在HTML页面中插入JavaScript，请使用标签。 和会告诉JavaScript在何处开始在何处结束。  和script&gt;之间的代码行包含了JavaScript：  123&lt;script&gt;    alert(">
+    <meta name="description" content="JavaScript 使用误区赋值运算符应用错误在 JavaScript 程序中如果你在 if 条件语句中使用赋值运算符的等号 (&#x3D;) 将会产生一个错误结果, 正确的方法是使用比较运算符的两个等号 (&#x3D;&#x3D;)。  加法与连接注意事项加法是两个数字相加。 连接是两个字符串连接。 JavaScript 的加法和连接都使用 + 运算符。  浮点型数据使用注意事项JavaScr">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JavaScript(二)">
-<meta property="og:url" content="http://example.com/2025/07/21/JavaScript-%E4%BA%8C/">
+<meta property="og:title" content="JavaScript(九)">
+<meta property="og:url" content="http://example.com/2025/07/23/JavaScript-%E4%B9%9D/">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="JavaScript用法HTML中的JavaScript脚本代码必须位于与script&gt;标签之间 JavaScript脚本代码可以放置在HTML页面的和部分中  标签如需在HTML页面中插入JavaScript，请使用标签。 和会告诉JavaScript在何处开始在何处结束。  和script&gt;之间的代码行包含了JavaScript：  123&lt;script&gt;    alert(">
+<meta property="og:description" content="JavaScript 使用误区赋值运算符应用错误在 JavaScript 程序中如果你在 if 条件语句中使用赋值运算符的等号 (&#x3D;) 将会产生一个错误结果, 正确的方法是使用比较运算符的两个等号 (&#x3D;&#x3D;)。  加法与连接注意事项加法是两个数字相加。 连接是两个字符串连接。 JavaScript 的加法和连接都使用 + 运算符。  浮点型数据使用注意事项JavaScr">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-07-21T13:36:01.000Z">
-<meta property="article:modified_time" content="2025-07-21T14:24:47.656Z">
+<meta property="article:published_time" content="2025-07-23T09:12:08.000Z">
+<meta property="article:modified_time" content="2025-07-24T00:46:32.145Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -46,7 +46,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":[]},"dateCreated":"2025-07-21T21:36:01+08:00","dateModified":"2025-07-21T22:24:47+08:00","datePublished":"2025-07-21T21:36:01+08:00","description":"","headline":"JavaScript(二)","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/07/21/JavaScript-%E4%BA%8C/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":[]},"url":"http://example.com/2025/07/21/JavaScript-%E4%BA%8C/","image":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":[]},"dateCreated":"2025-07-23T17:12:08+08:00","dateModified":"2025-07-24T08:46:32+08:00","datePublished":"2025-07-23T17:12:08+08:00","description":"","headline":"JavaScript(九)","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/07/23/JavaScript-%E4%B9%9D/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":[]},"url":"http://example.com/2025/07/23/JavaScript-%E4%B9%9D/","image":[]}</script>
   
 </head>
 <body>
@@ -78,59 +78,147 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-07-21T13:36:01.000Z">2025-07-21</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-07-21T14:24:47.656Z">2025-07-21</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-07-23T09:12:08.000Z">2025-07-23</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-07-24T00:46:32.145Z">2025-07-24</time></span></div></div></div>
     
     <div class="bottom only-title">
       
       <div class="text-area">
-        <h1 class="text title"><span>JavaScript(二)</span></h1>
+        <h1 class="text title"><span>JavaScript(九)</span></h1>
         
       </div>
     </div>
     
   </div>
-  </div><article class="md-text content"><h5 id="JavaScript用法"><a href="#JavaScript用法" class="headerlink" title="JavaScript用法"></a>JavaScript用法</h5><p>HTML中的JavaScript脚本代码必须位于<script>与</script>script&gt;标签之间</p>
-<p>JavaScript脚本代码可以放置在HTML页面的<body>和<head>部分中</p>
+  </div><article class="md-text content"><h5 id="JavaScript-使用误区"><a href="#JavaScript-使用误区" class="headerlink" title="JavaScript 使用误区"></a>JavaScript 使用误区</h5><h5 id="赋值运算符应用错误"><a href="#赋值运算符应用错误" class="headerlink" title="赋值运算符应用错误"></a>赋值运算符应用错误</h5><p>在 JavaScript 程序中如果你在 if 条件语句中使用赋值运算符的等号 (&#x3D;) 将会产生一个错误结果, 正确的方法是使用比较运算符的两个等号 (&#x3D;&#x3D;)。</p>
 <hr>
-<h5 id="标签"><a href="#标签" class="headerlink" title="标签"></a><script>标签</h5><p>如需在HTML页面中插入JavaScript，请使用<script>标签。</p>
-<script>和</script>会告诉JavaScript在何处开始在何处结束。
-
-<script>和</script>script>之间的代码行包含了JavaScript：
-
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">    <span class="title function_">alert</span>(<span class="string">&quot;我的第一个JavaScript&quot;</span>)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-<p>您无需理解上面的代码。只需明白，浏览器会解释并执行位于<script>和</script>之间的JavaScript代码。</p>
+<h5 id="加法与连接注意事项"><a href="#加法与连接注意事项" class="headerlink" title="加法与连接注意事项"></a>加法与连接注意事项</h5><p><strong>加法</strong>是两个<strong>数字</strong>相加。</p>
+<p><strong>连接</strong>是两个<strong>字符串</strong>连接。</p>
+<p>JavaScript 的加法和连接都使用 + 运算符。</p>
 <hr>
-<h5 id="中的JavaScript"><a href="#中的JavaScript" class="headerlink" title="中的JavaScript"></a><body>中的JavaScript</h5><p>在本例中，JavaScript会在页面加载时向HTML的<body>写文本：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&quot;&lt;h1&gt;这是一个标题&lt;/h1&gt;&quot;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="variable language_">document</span>,<span class="title function_">write</span>(<span class="string">&quot;&lt;p&gt;这是一个段落&lt;/p&gt;&quot;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span>    </span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span>    </span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h5 id="浮点型数据使用注意事项"><a href="#浮点型数据使用注意事项" class="headerlink" title="浮点型数据使用注意事项"></a>浮点型数据使用注意事项</h5><p>JavaScript 中的所有数据都是以 64 位<strong>浮点型数据(float)</strong> 来存储。</p>
+<hr>
+<h5 id="JavaScript-字符串分行"><a href="#JavaScript-字符串分行" class="headerlink" title="JavaScript 字符串分行"></a>JavaScript 字符串分行</h5><p>JavaScript 允许我们在字符串中使用断行语句:</p>
+<hr>
+<h5 id="JavaScript表单"><a href="#JavaScript表单" class="headerlink" title="JavaScript表单"></a>JavaScript表单</h5><p>HTML 表单验证可以通过 JavaScript 来完成。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">validateForm</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="keyword">var</span> x = <span class="variable language_">document</span>.<span class="property">forms</span>[<span class="string">&quot;myForm&quot;</span>][<span class="string">&quot;fname&quot;</span>].<span class="property">value</span>;</span><br><span class="line">    <span class="keyword">if</span>(x==<span class="literal">null</span>||x==<span class="string">&quot;&quot;</span>)&#123;</span><br><span class="line">        <span class="title function_">alert</span>(<span class="string">&quot;需要输入名字&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h5 id="JavaScript函数和事件"><a href="#JavaScript函数和事件" class="headerlink" title="JavaScript函数和事件"></a>JavaScript函数和事件</h5><p>上面例子中的JavaScript语句，会在页面加载时执行。</p>
-<p>通常，我们需要在某个事件发生时执行代码，比如当用户点击按钮时。</p>
-<p>如果我们把JavaScript代码放入函数中，就可以在事件发生时调用该函数。</p>
-<p>您将在稍后的章节中学到更多有关JavaScript函数和事件的知识。</p>
-<hr>
-<h5 id="在或者的JavaScript"><a href="#在或者的JavaScript" class="headerlink" title="在或者的JavaScript"></a>在<head>或者<body>的JavaScript</h5><p>您可以在HTML文档中放入不限数量的脚本。</p>
-<p>脚本可位于HTML的<body>或<head>部分中，或者同时存在于两个部分中。</p>
-<p>通常的做法是把函数放入<head>部分中，或者放在页面底部。这样就可以把它们安置到同一个位置，不会干扰页面的内容。</p>
-<hr>
-<h5 id="中的JavaScript函数"><a href="#中的JavaScript函数" class="headerlink" title="中的JavaScript函数"></a><head>中的JavaScript函数</h5><p>在本例中，将一个JavaScript函数放到<head>部分。</p>
-<p>该函数会在点击时被调用：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;head&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="keyword">function</span> <span class="title function_">myFunction</span>(<span class="params"></span>)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;demo&quot;</span>).<span class="property">innerHTML</span>=<span class="string">&quot;我的第一个JavaScript函数&quot;</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">&#125;    </span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span>    </span><br><span class="line">&lt;/head&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">&quot;demo&quot;</span>&gt;</span>一个段落<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;myFunction()&quot;</span>&gt;</span>尝试一下<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<h5 id="HTML表单自动验证"><a href="#HTML表单自动验证" class="headerlink" title="HTML表单自动验证"></a>HTML表单自动验证</h5><p>HTML 表单验证也可以通过浏览器来自动完成。</p>
+<p>如果表单字段 (fname) 的值为空, <strong>required</strong> 属性会阻止表单提交：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;form action=<span class="string">&quot;demo_form.php&quot;</span> method=<span class="string">&quot;post&quot;</span>&gt;</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">name</span>=<span class="string">&quot;fname&quot;</span> <span class="attr">required</span>=<span class="string">&quot;required&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">value</span>=<span class="string">&quot;提交&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
 <hr>
-<h5 id="中的JavaScript函数-1"><a href="#中的JavaScript函数-1" class="headerlink" title="中的JavaScript函数"></a><body>中的JavaScript函数</h5><p>同上：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;body&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>我的 Web 页面<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">&quot;demo&quot;</span>&gt;</span>一个段落<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;button&quot;</span> <span class="attr">onclick</span>=<span class="string">&quot;myFunction()&quot;</span>&gt;</span>尝试一下<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="keyword">function</span> <span class="title function_">myFunction</span>(<span class="params"></span>)</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;demo&quot;</span>).<span class="property">innerHTML</span>=<span class="string">&quot;我的第一个 JavaScript 函数&quot;</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">&#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
+<h5 id="数据验证"><a href="#数据验证" class="headerlink" title="数据验证"></a>数据验证</h5><p>数据验证用于确保用户输入的数据是有效的。</p>
+<p>典型的数据验证有：</p>
+<ul>
+<li>必需字段是否有输入?</li>
+<li>用户是否输入了合法的数据?</li>
+<li>在数字字段是否输入了文本?</li>
+</ul>
+<p><strong>服务端数据验证</strong>是在数据提交到服务器上后再验证。</p>
+<p><strong>客户端数据验证</strong>是在数据发送到服务器前，在浏览器上完成验证。</p>
+<hr>
+<h5 id="HTML约束验证"><a href="#HTML约束验证" class="headerlink" title="HTML约束验证"></a>HTML约束验证</h5><p>HTML5 新增了 HTML 表单的验证方式：约束验证（constraint validation）。</p>
+<p>约束验证是表单被提交时浏览器用来实现验证的一种算法。</p>
+<p>HTML 约束验证基于：</p>
+<ul>
+<li><strong>HTML 输入属性</strong></li>
+<li><strong>CSS 伪类选择器</strong></li>
+<li><strong>DOM 属性和方法</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">属性</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">disabled</td>
+<td align="left">规定输入的元素不可用</td>
+</tr>
+<tr>
+<td align="left">max</td>
+<td align="left">规定输入元素的最大值</td>
+</tr>
+<tr>
+<td align="left">min</td>
+<td align="left">规定输入元素的最小值</td>
+</tr>
+<tr>
+<td align="left">pattern</td>
+<td align="left">规定输入元素值的模式</td>
+</tr>
+<tr>
+<td align="left">required</td>
+<td align="left">规定输入元素字段是必需的</td>
+</tr>
+<tr>
+<td align="left">type</td>
+<td align="left">规定输入元素的类型</td>
+</tr>
+</tbody></table>
+<h5 id="约束验证-CSS-伪类选择器"><a href="#约束验证-CSS-伪类选择器" class="headerlink" title="约束验证 CSS 伪类选择器"></a>约束验证 CSS 伪类选择器</h5><table>
+<thead>
+<tr>
+<th align="left">选择器</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">:disabled</td>
+<td align="left">选取属性为 “disabled” 属性的 input 元素</td>
+</tr>
+<tr>
+<td align="left">:invalid</td>
+<td align="left">选取无效的 input 元素</td>
+</tr>
+<tr>
+<td align="left">:optional</td>
+<td align="left">选择没有”optional”属性的 input 元素</td>
+</tr>
+<tr>
+<td align="left">:required</td>
+<td align="left">选择有”required”属性的 input 元素</td>
+</tr>
+<tr>
+<td align="left">:valid</td>
+<td align="left">选取有效值的 input 元素</td>
+</tr>
+</tbody></table>
+<hr>
+<h5 id="JavaScript表单验证"><a href="#JavaScript表单验证" class="headerlink" title="JavaScript表单验证"></a>JavaScript表单验证</h5><p>表单验证是确保用户输入的数据符合预期格式和规则的过程。</p>
+<p>在 Web 开发中，表单验证通常用于检查用户输入的有效性，例如电子邮件地址、密码、电话号码等。</p>
+<p>通过表单验证，可以防止无效数据提交到服务器，从而提高数据的准确性和安全性。</p>
+<p>JavaScript 可用来在数据被送往服务器前对 HTML 表单中的这些输入数据进行验证。</p>
+<p>表单数据经常需要使用 JavaScript 来验证其正确性：</p>
+<ul>
+<li>验证表单数据是否为空？</li>
+<li>验证输入是否是一个正确的email地址？</li>
+<li>验证日期是否输入正确？</li>
+<li>验证表单输入内容是否为数字型？</li>
+</ul>
+<hr>
+<h5 id="为什么需要表单验证？"><a href="#为什么需要表单验证？" class="headerlink" title="为什么需要表单验证？"></a>为什么需要表单验证？</h5><ol>
+<li><strong>数据准确性</strong>：确保用户输入的数据符合预期格式，避免无效数据。</li>
+<li><strong>安全性</strong>：防止恶意用户提交有害数据，如 SQL 注入、跨站脚本攻击（XSS）等。</li>
+<li><strong>用户体验</strong>：及时反馈用户输入错误，帮助用户快速纠正问题。</li>
+</ol>
+<hr>
+<h5 id="JavaScript-表单验证的基本方法"><a href="#JavaScript-表单验证的基本方法" class="headerlink" title="JavaScript 表单验证的基本方法"></a>JavaScript 表单验证的基本方法</h5><p>1.使用HTML5内置验证</p>
+<p>HTML5 提供了一些内置的表单验证功能，例如 <code>required</code>、<code>pattern</code>、<code>min</code>、<code>max</code> 等属性。这些属性可以简单地实现基本的表单验证。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;form&gt;</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;email&quot;</span>&gt;</span>Email:<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span></span><br><span class="line">  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;</span><br><span class="line">  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</span><br><span class="line">&lt;/form&gt;&lt;form&gt;</span><br><span class="line">  &lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;</span><br><span class="line">  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;email&quot; required&gt;</span><br><span class="line">  &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;</span><br><span class="line">&lt;/form&gt;</span><br></pre></td></tr></table></figure>
+
+<p>在上面的例子中，<code>required</code> 属性确保用户必须输入电子邮件地址，而 <code>type=&quot;email&quot;</code> 会自动验证输入是否为有效的电子邮件格式。</p>
+<p>2.使用JavaScript自定义验证</p>
+<p>下面的函数用来检查用户是否已填写表单中的必填（或必选）项目。假如必填或必选项为空，那么警告框会弹出，并且函数的返回值为 false，否则函数的返回值则为 true（意味着数据没有问题）：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">validateForm</span>(<span class="params"></span>)</span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">var</span> x=<span class="variable language_">document</span>.<span class="property">forms</span>[<span class="string">&quot;myForm&quot;</span>][<span class="string">&quot;fname&quot;</span>].<span class="property">value</span>;</span><br><span class="line">  <span class="keyword">if</span> (x==<span class="literal">null</span> || x==<span class="string">&quot;&quot;</span>)</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="title function_">alert</span>(<span class="string">&quot;姓必须填写&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h5 id="外部的JavaScript"><a href="#外部的JavaScript" class="headerlink" title="外部的JavaScript"></a>外部的JavaScript</h5><p>也可以把脚本保存到外部文件中。外部文件通常包含被多个网页使用的代码。</p>
-<p>外部JavaScript文件的文件扩展名是.js。</p>
-<p>如需使用外部文件，请在<script>标签的&quot;src&quot;属性中设置该.js文件：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;<span class="language-xml"><span class="tag">&lt;<span class="name">body</span>&gt;</span><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;myScript.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span>&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h5 id="E-maill验证"><a href="#E-maill验证" class="headerlink" title="E-maill验证"></a>E-maill验证</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">validateForm</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="keyword">var</span> x=<span class="variable language_">document</span>.<span class="property">forms</span>[<span class="string">&quot;myForm&quot;</span>][<span class="string">&quot;email&quot;</span>].<span class="property">value</span>;</span><br><span class="line">  <span class="keyword">var</span> atpos=x.<span class="title function_">indexOf</span>(<span class="string">&quot;@&quot;</span>);</span><br><span class="line">  <span class="keyword">var</span> dotpos=x.<span class="title function_">lastIndexOf</span>(<span class="string">&quot;.&quot;</span>);</span><br><span class="line">  <span class="keyword">if</span> (atpos&lt;<span class="number">1</span> || dotpos&lt;atpos+<span class="number">2</span> || dotpos+<span class="number">2</span>&gt;=x.<span class="property">length</span>)&#123;</span><br><span class="line">    <span class="title function_">alert</span>(<span class="string">&quot;不是一个有效的 e-mail 地址&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>你可以将脚本放置于<head>或者<body>中，放在<script>标签中的脚本与外部引用的脚本运行效果完全一致。</p>
-<p>myScript.js文件代码如下：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">myFunction</span>(<span class="params"></span>)&#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;demo&quot;</span>).<span class="property">innerHTML</span>=<span class="string">&quot;我的第一个JavaScript函数&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="使用正则表达式进行验证"><a href="#使用正则表达式进行验证" class="headerlink" title="使用正则表达式进行验证"></a>使用正则表达式进行验证</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">validateEmail</span>(<span class="params">email</span>)&#123;</span><br><span class="line">    <span class="keyword">var</span> regex = <span class="regexp">/^[^\s@]+@[^\s@]+\.[^\s@]+$/</span>;</span><br><span class="line">    <span class="keyword">return</span> regex.<span class="title function_">test</span>(email);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> email = <span class="string">&quot;example@example.com&quot;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="title function_">validateEmail</span>(email))&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Valid email address&#x27;</span>);</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;Invalid email address&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 </article>
 <div class="article-footer">
@@ -143,7 +231,7 @@
 
 </div>
 
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">Newer</div><a href="/2025/07/22/JavaScript-%E4%B8%89/">JavaScript(三)</a></div><div class="item" id="next"><div class="note">Older</div><a href="/2025/07/21/JavaScrpit-%E4%B8%80/">JavaScrpit(一)</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">Newer</div><a href="/2025/07/23/JavaScript-%E5%8D%81/">JavaScript(十)</a></div><div class="item" id="next"><div class="note">Older</div><a href="/2025/07/23/JavaScript-%E5%85%AB/">JavaScript(八)</a></div></section></div>
 
 
 
@@ -157,47 +245,7 @@
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E7%94%A8%E6%B3%95"><span class="toc-text">JavaScript用法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%A0%87%E7%AD%BE"><span class="toc-text">标签&lt;&#x2F;h5&gt;&lt;p&gt;如需在HTML页面中插入JavaScript，请使用&lt;script&gt;标签。&lt;&#x2F;p&gt;
-&lt;script&gt;和会告诉JavaScript在何处开始在何处结束。
-
-和script&gt;之间的代码行包含了JavaScript：
-
-123&lt;script&gt;    alert(&quot;我的第一个JavaScript&quot;)&lt;&#x2F;script&gt;
-
-您无需理解上面的代码。只需明白，浏览器会解释并执行位于和之间的JavaScript代码。
-
-中的JavaScript在本例中，JavaScript会在页面加载时向HTML的写文本：
-12345678&lt;html&gt;&lt;body&gt;&lt;script&gt;document.write(&quot;&lt;h1&gt;这是一个标题&lt;&#x2F;h1&gt;&quot;);document,write(&quot;&lt;p&gt;这是一个段落&lt;&#x2F;p&gt;&quot;);&lt;&#x2F;script&gt;    &lt;&#x2F;body&gt;    &lt;&#x2F;html&gt;
-
-
-JavaScript函数和事件上面例子中的JavaScript语句，会在页面加载时执行。
-通常，我们需要在某个事件发生时执行代码，比如当用户点击按钮时。
-如果我们把JavaScript代码放入函数中，就可以在事件发生时调用该函数。
-您将在稍后的章节中学到更多有关JavaScript函数和事件的知识。
-
-在或者的JavaScript您可以在HTML文档中放入不限数量的脚本。
-脚本可位于HTML的或部分中，或者同时存在于两个部分中。
-通常的做法是把函数放入部分中，或者放在页面底部。这样就可以把它们安置到同一个位置，不会干扰页面的内容。
-
-中的JavaScript函数在本例中，将一个JavaScript函数放到部分。
-该函数会在点击时被调用：
-1234567891011&lt;head&gt;&lt;script&gt;function myFunction(){    document.getElementById(&quot;demo&quot;).innerHTML&#x3D;&quot;我的第一个JavaScript函数&quot;;}    &lt;&#x2F;script&gt;    &lt;&#x2F;head&gt;&lt;body&gt;&lt;p id&#x3D;&quot;demo&quot;&gt;一个段落&lt;&#x2F;p&gt;&lt;button type&#x3D;&quot;button&quot; onclick&#x3D;&quot;myFunction()&quot;&gt;尝试一下&lt;&#x2F;button&gt;&lt;&#x2F;body&gt;
-
-
-中的JavaScript函数同上：
-1234567891011&lt;body&gt;&lt;h1&gt;我的 Web 页面&lt;&#x2F;h1&gt;&lt;p id&#x3D;&quot;demo&quot;&gt;一个段落&lt;&#x2F;p&gt;&lt;button type&#x3D;&quot;button&quot; onclick&#x3D;&quot;myFunction()&quot;&gt;尝试一下&lt;&#x2F;button&gt;&lt;script&gt;function myFunction(){    document.getElementById(&quot;demo&quot;).innerHTML&#x3D;&quot;我的第一个 JavaScript 函数&quot;;}&lt;&#x2F;script&gt;&lt;&#x2F;body&gt;
-
-
-外部的JavaScript也可以把脚本保存到外部文件中。外部文件通常包含被多个网页使用的代码。
-外部JavaScript文件的文件扩展名是.js。
-如需使用外部文件，请在标签的&quot;src&quot;属性中设置该.js文件：&lt;&#x2F;p&gt;
-&lt;figure class&#x3D;&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class&#x3D;&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class&#x3D;&quot;line&quot;&gt;1&lt;&#x2F;span&gt;&lt;br&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;td&gt;&lt;td class&#x3D;&quot;code&quot;&gt;&lt;pre&gt;&lt;span class&#x3D;&quot;line&quot;&gt;&lt;html&gt;&lt;span class&#x3D;&quot;language-xml&quot;&gt;&lt;span class&#x3D;&quot;tag&quot;&gt;&lt;&lt;span class&#x3D;&quot;name&quot;&gt;body&lt;&#x2F;span&gt;&gt;&lt;&#x2F;span&gt;&lt;span class&#x3D;&quot;tag&quot;&gt;&lt;&lt;span class&#x3D;&quot;name&quot;&gt;script&lt;&#x2F;span&gt; &lt;span class&#x3D;&quot;attr&quot;&gt;src&lt;&#x2F;span&gt;&#x3D;&lt;span class&#x3D;&quot;string&quot;&gt;&quot;myScript.js&quot;&lt;&#x2F;span&gt;&gt;&lt;&#x2F;span&gt;&lt;span class&#x3D;&quot;tag&quot;&gt;&lt;&#x2F;&lt;span class&#x3D;&quot;name&quot;&gt;script&lt;&#x2F;span&gt;&gt;&lt;&#x2F;span&gt;&lt;span class&#x3D;&quot;tag&quot;&gt;&lt;&#x2F;&lt;span class&#x3D;&quot;name&quot;&gt;body&lt;&#x2F;span&gt;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;html&gt;&lt;&#x2F;span&gt;&lt;br&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;table&gt;&lt;&#x2F;figure&gt;
-
-&lt;p&gt;你可以将脚本放置于&lt;head&gt;或者&lt;body&gt;中，放在&lt;script&gt;标签中的脚本与外部引用的脚本运行效果完全一致。&lt;&#x2F;p&gt;
-&lt;p&gt;myScript.js文件代码如下：&lt;&#x2F;p&gt;
-&lt;figure class&#x3D;&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class&#x3D;&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class&#x3D;&quot;line&quot;&gt;1&lt;&#x2F;span&gt;&lt;br&gt;&lt;span class&#x3D;&quot;line&quot;&gt;2&lt;&#x2F;span&gt;&lt;br&gt;&lt;span class&#x3D;&quot;line&quot;&gt;3&lt;&#x2F;span&gt;&lt;br&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;td&gt;&lt;td class&#x3D;&quot;code&quot;&gt;&lt;pre&gt;&lt;span class&#x3D;&quot;line&quot;&gt;&lt;span class&#x3D;&quot;keyword&quot;&gt;function&lt;&#x2F;span&gt; &lt;span class&#x3D;&quot;title function_&quot;&gt;myFunction&lt;&#x2F;span&gt;(&lt;span class&#x3D;&quot;params&quot;&gt;&lt;&#x2F;span&gt;)&#123;&lt;&#x2F;span&gt;&lt;br&gt;&lt;span class&#x3D;&quot;line&quot;&gt;    &lt;span class&#x3D;&quot;variable language_&quot;&gt;document&lt;&#x2F;span&gt;.&lt;span class&#x3D;&quot;title function_&quot;&gt;getElementById&lt;&#x2F;span&gt;(&lt;span class&#x3D;&quot;string&quot;&gt;&quot;demo&quot;&lt;&#x2F;span&gt;).&lt;span class&#x3D;&quot;property&quot;&gt;innerHTML&lt;&#x2F;span&gt;&#x3D;&lt;span class&#x3D;&quot;string&quot;&gt;&quot;我的第一个JavaScript函数&quot;&lt;&#x2F;span&gt;;&lt;&#x2F;span&gt;&lt;br&gt;&lt;span class&#x3D;&quot;line&quot;&gt;&#125;&lt;&#x2F;span&gt;&lt;br&gt;&lt;&#x2F;pre&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;table&gt;&lt;&#x2F;figure&gt;
-
-</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%AD%E7%9A%84JavaScript"><span class="toc-text">中的JavaScript</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%87%BD%E6%95%B0%E5%92%8C%E4%BA%8B%E4%BB%B6"><span class="toc-text">JavaScript函数和事件</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9C%A8%E6%88%96%E8%80%85%E7%9A%84JavaScript"><span class="toc-text">在或者的JavaScript</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%AD%E7%9A%84JavaScript%E5%87%BD%E6%95%B0"><span class="toc-text">中的JavaScript函数</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%AD%E7%9A%84JavaScript%E5%87%BD%E6%95%B0-1"><span class="toc-text">中的JavaScript函数</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A4%96%E9%83%A8%E7%9A%84JavaScript"><span class="toc-text">外部的JavaScript</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>Scroll to Top</span></a></div></widget>
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript-%E4%BD%BF%E7%94%A8%E8%AF%AF%E5%8C%BA"><span class="toc-text">JavaScript 使用误区</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6%E5%BA%94%E7%94%A8%E9%94%99%E8%AF%AF"><span class="toc-text">赋值运算符应用错误</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%8A%A0%E6%B3%95%E4%B8%8E%E8%BF%9E%E6%8E%A5%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">加法与连接注意事项</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%B5%AE%E7%82%B9%E5%9E%8B%E6%95%B0%E6%8D%AE%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">浮点型数据使用注意事项</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%86%E8%A1%8C"><span class="toc-text">JavaScript 字符串分行</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%A1%A8%E5%8D%95"><span class="toc-text">JavaScript表单</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#HTML%E8%A1%A8%E5%8D%95%E8%87%AA%E5%8A%A8%E9%AA%8C%E8%AF%81"><span class="toc-text">HTML表单自动验证</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E9%AA%8C%E8%AF%81"><span class="toc-text">数据验证</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#HTML%E7%BA%A6%E6%9D%9F%E9%AA%8C%E8%AF%81"><span class="toc-text">HTML约束验证</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E7%BA%A6%E6%9D%9F%E9%AA%8C%E8%AF%81-CSS-%E4%BC%AA%E7%B1%BB%E9%80%89%E6%8B%A9%E5%99%A8"><span class="toc-text">约束验证 CSS 伪类选择器</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81"><span class="toc-text">JavaScript表单验证</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81%EF%BC%9F"><span class="toc-text">为什么需要表单验证？</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript-%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95"><span class="toc-text">JavaScript 表单验证的基本方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#E-maill%E9%AA%8C%E8%AF%81"><span class="toc-text">E-maill验证</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E8%BF%9B%E8%A1%8C%E9%AA%8C%E8%AF%81"><span class="toc-text">使用正则表达式进行验证</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>Scroll to Top</span></a></div></widget>
 </div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
