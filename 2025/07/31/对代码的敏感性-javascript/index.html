@@ -17,18 +17,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>JavaScript(四) - Hexo</title>
+  <title>对代码的敏感性(javascript) - Hexo</title>
 
   
-    <meta name="description" content="JavaScript变量变量是用于存储信息的”容器”。 在JavaScript中，变量用于存储数据，并可以在程序执行过程中动态更改。 在JavaScript中，变量可以存储各种类型的数据，如数字、字符串、对象、函数等。 变量名是标识符，用于引用存储在变量中的数据。 在JavaScript中，可以使用var,let,const关键字来声明变量。  var：ES5引入的变量声明方式，具有函数作用域。">
+    <meta name="description" content="对代码的敏感性：JavaScript开发者的深度洞察——从“小写”到“安全”，从“性能”到“规范”的系统性思考JavaScript作为一门动态类型且灵活的语言，其“敏感性”体现在代码的每一个细节中。开发者对代码的敏感性，不仅关乎功能的正确性，更影响代码的安全性、性能与可维护性。本文将从大小写敏感性、安全敏感性、性能敏感性三个维度，结合实战案例与工具推荐，系统性地探讨JavaScript开发中的“敏">
 <meta property="og:type" content="article">
-<meta property="og:title" content="JavaScript(四)">
-<meta property="og:url" content="http://example.com/2025/07/22/JavaScript-%E5%9B%9B/">
+<meta property="og:title" content="对代码的敏感性(javascript)">
+<meta property="og:url" content="http://example.com/2025/07/31/%E5%AF%B9%E4%BB%A3%E7%A0%81%E7%9A%84%E6%95%8F%E6%84%9F%E6%80%A7-javascript/">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="JavaScript变量变量是用于存储信息的”容器”。 在JavaScript中，变量用于存储数据，并可以在程序执行过程中动态更改。 在JavaScript中，变量可以存储各种类型的数据，如数字、字符串、对象、函数等。 变量名是标识符，用于引用存储在变量中的数据。 在JavaScript中，可以使用var,let,const关键字来声明变量。  var：ES5引入的变量声明方式，具有函数作用域。">
+<meta property="og:description" content="对代码的敏感性：JavaScript开发者的深度洞察——从“小写”到“安全”，从“性能”到“规范”的系统性思考JavaScript作为一门动态类型且灵活的语言，其“敏感性”体现在代码的每一个细节中。开发者对代码的敏感性，不仅关乎功能的正确性，更影响代码的安全性、性能与可维护性。本文将从大小写敏感性、安全敏感性、性能敏感性三个维度，结合实战案例与工具推荐，系统性地探讨JavaScript开发中的“敏">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-07-22T03:17:41.000Z">
-<meta property="article:modified_time" content="2025-07-25T02:25:32.864Z">
+<meta property="article:published_time" content="2025-07-31T12:39:17.000Z">
+<meta property="article:modified_time" content="2025-07-31T12:50:13.560Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -46,7 +46,7 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":[]},"dateCreated":"2025-07-22T11:17:41+08:00","dateModified":"2025-07-25T10:25:32+08:00","datePublished":"2025-07-22T11:17:41+08:00","description":"","headline":"JavaScript(四)","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/07/22/JavaScript-%E5%9B%9B/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":[]},"url":"http://example.com/2025/07/22/JavaScript-%E5%9B%9B/","image":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"John Doe","sameAs":[]},"dateCreated":"2025-07-31T20:39:17+08:00","dateModified":"2025-07-31T20:50:13+08:00","datePublished":"2025-07-31T20:39:17+08:00","description":"","headline":"对代码的敏感性(javascript)","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/07/31/%E5%AF%B9%E4%BB%A3%E7%A0%81%E7%9A%84%E6%95%8F%E6%84%9F%E6%80%A7-javascript/"},"publisher":{"@type":"Organization","name":"John Doe","sameAs":[]},"url":"http://example.com/2025/07/31/%E5%AF%B9%E4%BB%A3%E7%A0%81%E7%9A%84%E6%95%8F%E6%84%9F%E6%80%A7-javascript/","image":[]}</script>
   
 </head>
 <body>
@@ -77,79 +77,87 @@
 <div class="article banner top">
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
-<span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/JavaScript/">JavaScript</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="/categories/JavaScript/%E6%95%99%E7%A8%8B/">教程</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-07-22T03:17:41.000Z">2025-07-22</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-07-25T02:25:32.864Z">2025-07-25</time></span></div></div></div>
+<span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-07-31T12:39:17.000Z">2025-07-31</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-07-31T12:50:13.560Z">2025-07-31</time></span></div></div></div>
     
     <div class="bottom only-title">
       
       <div class="text-area">
-        <h1 class="text title"><span>JavaScript(四)</span></h1>
+        <h1 class="text title"><span>对代码的敏感性(javascript)</span></h1>
         
       </div>
     </div>
     
   </div>
-  </div><article class="md-text content"><h5 id="JavaScript变量"><a href="#JavaScript变量" class="headerlink" title="JavaScript变量"></a>JavaScript变量</h5><p>变量是用于存储信息的”容器”。</p>
-<p>在JavaScript中，变量用于存储数据，并可以在程序执行过程中动态更改。</p>
-<p>在JavaScript中，变量可以存储各种类型的数据，如数字、字符串、对象、函数等。</p>
-<p>变量名是标识符，用于引用存储在变量中的数据。</p>
-<p>在JavaScript中，可以使用var,let,const关键字来声明变量。</p>
+  </div><article class="md-text content"><h5 id="对代码的敏感性：JavaScript开发者的深度洞察"><a href="#对代码的敏感性：JavaScript开发者的深度洞察" class="headerlink" title="对代码的敏感性：JavaScript开发者的深度洞察"></a>对代码的敏感性：JavaScript开发者的深度洞察</h5><h5 id="——从“小写”到“安全”，从“性能”到“规范”的系统性思考"><a href="#——从“小写”到“安全”，从“性能”到“规范”的系统性思考" class="headerlink" title="——从“小写”到“安全”，从“性能”到“规范”的系统性思考"></a>——从“小写”到“安全”，从“性能”到“规范”的系统性思考</h5><p>JavaScript作为一门动态类型且灵活的语言，其“敏感性”体现在代码的每一个细节中。开发者对代码的敏感性，不仅关乎功能的正确性，更影响代码的安全性、性能与可维护性。本文将从大小写敏感性、安全敏感性、性能敏感性三个维度，结合实战案例与工具推荐，系统性地探讨JavaScript开发中的“敏感性”问题。</p>
+<hr>
+<h5 id="一、大小写敏感性：代码逻辑的基石"><a href="#一、大小写敏感性：代码逻辑的基石" class="headerlink" title="一、大小写敏感性：代码逻辑的基石"></a>一、大小写敏感性：代码逻辑的基石</h5><p>JavaScript是严格区分大小写的语言，这一特性直接影响变量、函数、关键字的识别与执行。</p>
+<p>1.变量与函数名的敏感性</p>
+<p>2.函数调用的敏感性</p>
+<p>3.关键字与DOM操作的敏感性</p>
+<p>最佳实践：统一命名规范、IDE辅助</p>
+<hr>
+<h5 id="二、安全敏感性：代码的“防御性编程”"><a href="#二、安全敏感性：代码的“防御性编程”" class="headerlink" title="二、安全敏感性：代码的“防御性编程”"></a>二、安全敏感性：代码的“防御性编程”</h5><p>JavaScript的运行环境（尤其是客户端）暴露了代码的脆弱性，开发者需对安全敏感性保持高度警惕。</p>
+<p>1.输入验证与XSS防护</p>
 <ul>
-<li>var：ES5引入的变量声明方式，具有函数作用域。</li>
-<li>let：ES6引入的变量声明方式，具有块级作用域。</li>
-<li>const：ES6引入的常量声明方式，具有块级作用域，且值不可变。</li>
+<li>用户输入的过滤</li>
+<li>使用安全的DOM操作</li>
 </ul>
-<p>您可以把变量看作存储数据的容器。</p>
-<hr>
+<p>2.敏感数据的处理</p>
 <ul>
-<li>变量必须以字母开头</li>
-<li>变量也能以$和_符号开头（不推荐）</li>
-<li>变量对大小写敏感</li>
+<li>避免在客户端存储敏感信息</li>
+<li>使用加密与混淆工具</li>
 </ul>
-<p>JavaScript语句和变量都对大小写敏感。</p>
+<p>3.防止远程代码执行（RCE）</p>
+<p>最佳实践：设置HTTP安全头、定期使用安全工具扫描</p>
 <hr>
-<p>JavaScript数据类型</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> pi=<span class="number">3.14</span>;</span><br><span class="line"><span class="keyword">var</span> person=<span class="string">&quot;John Doe&quot;</span>;</span><br><span class="line"><span class="keyword">var</span> answer = <span class="string">&quot;Yse I am!&quot;</span>;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h5 id="var声明特点："><a href="#var声明特点：" class="headerlink" title="var声明特点："></a>var声明特点：</h5><ul>
-<li>变量可以重复声明（覆盖原变量）。</li>
-<li>变量未赋值时，默认为undefined。</li>
-<li>var声明的变量会提升（Hoisting），但不会初始化</li>
+<h5 id="三、性能敏感性：代码的“轻量化”与“高效化”"><a href="#三、性能敏感性：代码的“轻量化”与“高效化”" class="headerlink" title="三、性能敏感性：代码的“轻量化”与“高效化”"></a>三、性能敏感性：代码的“轻量化”与“高效化”</h5><p>JavaScript的性能敏感性体现在代码执行效率与资源占用上，开发者需对“慢代码”保持敏感。</p>
+<p>1.代码执行效率优化</p>
+<ul>
+<li>避免长任务阻塞主线程</li>
+<li>减少DOM操作</li>
 </ul>
-<p>一个好的编程习惯是，在代码开始处，统一对需要的变量进行声明。</p>
+<p>2.内存与资源管理</p>
+<ul>
+<li>及时清理无用资源</li>
+<li>避免内存泄露</li>
+</ul>
+<p>3.工具辅助性能分析</p>
+<ul>
+<li>浏览器开发者工具</li>
+<li>代码压缩与优化</li>
+</ul>
+<p>最佳实践：</p>
+<ul>
+<li>懒加载非关键资源</li>
+<li>使用Web Workers处理复杂计算</li>
+</ul>
 <hr>
-<h5 id="使用let和const-ES6"><a href="#使用let和const-ES6" class="headerlink" title="使用let和const(ES6)"></a>使用let和const(ES6)</h5><p>在2015年以前，我们使用var关键字来声明JavaScript变量。</p>
-<p>2015年的ES6之后允许const关键字定义常量，使用let关键字定义限定范围内作用域的变量。</p>
-<p>let是ES6引入的新变量声明方式，推荐使用。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> city = <span class="string">&quot;北京&quot;</span>;</span><br><span class="line"><span class="keyword">let</span> age = <span class="number">30</span>;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(city,age);</span><br></pre></td></tr></table></figure>
-
-<p>const用于定义常量，一旦赋值不可修改</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> z = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">    cosnt z = <span class="number">20</span>;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(z);</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(z);</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h5 id="JavaScript数据类型"><a href="#JavaScript数据类型" class="headerlink" title="JavaScript数据类型"></a>JavaScript数据类型</h5><p>值类型（基本类型）：字符串、数字、布尔、空、未定义、Symbol</p>
-<p>引用数据类型（对象类型）：对象、数组、函数|正则、日期</p>
-<p>symbol是ES6引入的一种新的原始数据类型，表示独一无二的值。</p>
-<hr>
-<h5 id="JavaScript拥有动态类型"><a href="#JavaScript拥有动态类型" class="headerlink" title="JavaScript拥有动态类型"></a>JavaScript拥有动态类型</h5><p>相同的变量可用作不同的类型</p>
-<p>变量的数据类型可以使用typeof操作符来查看</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typeof</span> <span class="string">&quot;YDY&quot;</span>;</span><br><span class="line"><span class="keyword">typeof</span> <span class="number">3.14</span>;</span><br><span class="line"><span class="keyword">typeof</span> <span class="literal">false</span>;</span><br><span class="line"><span class="keyword">typeof</span> [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line"><span class="keyword">typeof</span> &#123;<span class="attr">name</span>:<span class="string">&#x27;YDY&#x27;</span>,<span class="attr">age</span>:<span class="number">34</span>&#125;;</span><br></pre></td></tr></table></figure>
-
-<p>typeof [1,2,3,4]返回”object”术语javascript早期设计的缺陷，数组本质上是特殊类型的对象</p>
-<p>争取检测方法：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Array</span>.<span class="title function_">isArray</span>([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]);</span><br><span class="line">[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>] <span class="keyword">instanceof</span> <span class="title class_">Array</span>;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h5 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> carname=<span class="string">&quot;YYY&quot;</span>;</span><br><span class="line"><span class="keyword">var</span> answer=<span class="string">&quot;He is called &#x27;YDY&#x27; &quot;</span>;</span><br><span class="line"><span class="keyword">var</span> answer2=<span class="string">&#x27;He is called &quot;YDY&quot;&#x27;</span>;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h5 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h5><hr>
-<h5 id="布尔"><a href="#布尔" class="headerlink" title="布尔"></a>布尔</h5><hr>
-<h5 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h5><hr>
-<h5 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h5><hr>
-<h5 id="undefined和null"><a href="#undefined和null" class="headerlink" title="undefined和null"></a>undefined和null</h5><hr>
-<h5 id="声明变量类型"><a href="#声明变量类型" class="headerlink" title="声明变量类型"></a>声明变量类型</h5><p>JavaScript变量均为对象。当您声明了一个变量时就创建了一个新的对象。</p>
+<h5 id="四、总结：代码敏感性的核心原则"><a href="#四、总结：代码敏感性的核心原则" class="headerlink" title="四、总结：代码敏感性的核心原则"></a>四、总结：代码敏感性的核心原则</h5><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>核心原则</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>大小写敏感性</strong></td>
+<td>严格遵循命名规范，利用工具辅助避免拼写错误。</td>
+</tr>
+<tr>
+<td><strong>安全敏感性</strong></td>
+<td>输入验证、敏感数据保护、禁用危险 API、设置安全头。</td>
+</tr>
+<tr>
+<td><strong>性能敏感性</strong></td>
+<td>优化执行效率、减少 DOM 操作、及时清理资源、利用工具分析瓶颈。</td>
+</tr>
+</tbody></table>
+<p>记住：</p>
+<ul>
+<li>代码敏感性&#x3D;对细节的敬畏+对安全的警觉+对性能的追求</li>
+<li>“敏感”不仅是技术问题，更是开发者的思维习惯。</li>
+</ul>
 </article>
 <div class="article-footer">
     <section id="license">
@@ -161,7 +169,7 @@
 
 </div>
 
-<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">Newer</div><a href="/2025/07/22/JavaScript-%E5%85%AD/">JavaScript(六)</a></div><div class="item" id="next"><div class="note">Older</div><a href="/2025/07/22/JavaScript-%E4%B8%89/">JavaScript(三)</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"></div><div class="item" id="next"><div class="note">Older</div><a href="/2025/07/28/Nodejs%E6%95%99%E7%A8%8B-%E4%BA%8C/">Nodejs教程(二)</a></div></section></div>
 
 
 
@@ -175,7 +183,7 @@
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E5%8F%98%E9%87%8F"><span class="toc-text">JavaScript变量</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#var%E5%A3%B0%E6%98%8E%E7%89%B9%E7%82%B9%EF%BC%9A"><span class="toc-text">var声明特点：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8let%E5%92%8Cconst-ES6"><span class="toc-text">使用let和const(ES6)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-text">JavaScript数据类型</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#JavaScript%E6%8B%A5%E6%9C%89%E5%8A%A8%E6%80%81%E7%B1%BB%E5%9E%8B"><span class="toc-text">JavaScript拥有动态类型</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-text">字符串</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%95%B0%E5%AD%97"><span class="toc-text">数字</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%B8%83%E5%B0%94"><span class="toc-text">布尔</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%95%B0%E7%BB%84"><span class="toc-text">数组</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E8%B1%A1"><span class="toc-text">对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#undefined%E5%92%8Cnull"><span class="toc-text">undefined和null</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%A3%B0%E6%98%8E%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B"><span class="toc-text">声明变量类型</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>Scroll to Top</span></a></div></widget>
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%AF%B9%E4%BB%A3%E7%A0%81%E7%9A%84%E6%95%8F%E6%84%9F%E6%80%A7%EF%BC%9AJavaScript%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E6%B7%B1%E5%BA%A6%E6%B4%9E%E5%AF%9F"><span class="toc-text">对代码的敏感性：JavaScript开发者的深度洞察</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%80%94%E2%80%94%E4%BB%8E%E2%80%9C%E5%B0%8F%E5%86%99%E2%80%9D%E5%88%B0%E2%80%9C%E5%AE%89%E5%85%A8%E2%80%9D%EF%BC%8C%E4%BB%8E%E2%80%9C%E6%80%A7%E8%83%BD%E2%80%9D%E5%88%B0%E2%80%9C%E8%A7%84%E8%8C%83%E2%80%9D%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%80%A7%E6%80%9D%E8%80%83"><span class="toc-text">——从“小写”到“安全”，从“性能”到“规范”的系统性思考</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%A4%A7%E5%B0%8F%E5%86%99%E6%95%8F%E6%84%9F%E6%80%A7%EF%BC%9A%E4%BB%A3%E7%A0%81%E9%80%BB%E8%BE%91%E7%9A%84%E5%9F%BA%E7%9F%B3"><span class="toc-text">一、大小写敏感性：代码逻辑的基石</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AE%89%E5%85%A8%E6%95%8F%E6%84%9F%E6%80%A7%EF%BC%9A%E4%BB%A3%E7%A0%81%E7%9A%84%E2%80%9C%E9%98%B2%E5%BE%A1%E6%80%A7%E7%BC%96%E7%A8%8B%E2%80%9D"><span class="toc-text">二、安全敏感性：代码的“防御性编程”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%80%A7%E8%83%BD%E6%95%8F%E6%84%9F%E6%80%A7%EF%BC%9A%E4%BB%A3%E7%A0%81%E7%9A%84%E2%80%9C%E8%BD%BB%E9%87%8F%E5%8C%96%E2%80%9D%E4%B8%8E%E2%80%9C%E9%AB%98%E6%95%88%E5%8C%96%E2%80%9D"><span class="toc-text">三、性能敏感性：代码的“轻量化”与“高效化”</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%80%BB%E7%BB%93%EF%BC%9A%E4%BB%A3%E7%A0%81%E6%95%8F%E6%84%9F%E6%80%A7%E7%9A%84%E6%A0%B8%E5%BF%83%E5%8E%9F%E5%88%99"><span class="toc-text">四、总结：代码敏感性的核心原则</span></a></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>Scroll to Top</span></a></div></widget>
 </div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
